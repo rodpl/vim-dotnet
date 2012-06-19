@@ -1,6 +1,6 @@
-au BufNewFile,BufRead *.proj,*.xaml setf xml
-au BufNewFile,BufRead *.proj,*.cs,*.xaml compiler msbuild
-au BufRead,BufNewFile *.cshtml set filetype=cshtml
+au BufNewFile,BufRead *.proj,*.xaml         setf xml
+au BufNewFile,BufRead *.proj,*.cs,*.xaml    compiler msbuild
+au BufNewFile,BufRead *.cshtml              setf cshtml
 
 au FileType cs set omnifunc=syntaxcomplete#Complete
 au FileType cs set foldmethod=marker
